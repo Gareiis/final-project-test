@@ -50,14 +50,25 @@ main {
 	background-color: blue;
 	min-height: 500px;
 }
-
+/*******************
+	index page     *
+*******************/
 .game-links {
 	text-align: center;
 	margin: 0 auto;
 }
+
+/*******************
+	sign up page     *
+*******************/
 
 .sign-up {
 	text-align: center;
 	margin: 0 auto;
 }
 
+/*******************
+	profile page     *
+*******************/
+
+.update-section
