@@ -1,3 +1,8 @@
+a {
+	color:white;
+	text-decoration: none;
+}
+
 /**********************
 		Hero Section
 ***********************/
@@ -43,7 +48,7 @@ nav > a {
 }
 
 /********************************
-	Main Section				*
+	Main Section				
 *********************************/
 
 main {
@@ -51,15 +56,20 @@ main {
 	min-height: 500px;
 }
 /*******************
-	index page     *
+	index page     
 *******************/
 .game-links {
 	text-align: center;
 	margin: 0 auto;
 }
 
+.game-links a {
+	font-size: 30px;
+	display: block;
+}
+
 /*******************
-	sign up page     *
+	sign up page     
 *******************/
 
 .sign-up {
@@ -67,8 +77,78 @@ main {
 	margin: 0 auto;
 }
 
+.sign-up > input {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
 /*******************
-	profile page     *
+	profile page     
 *******************/
 
-.update-section
+.profile {
+	background-color: purple;
+	position: relative;
+}
+
+.update-section {
+	background-color: grey;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.user-details {
+	background-color: gold;
+	float: left;
+	min-height: 100px;
+	width: 100px;
+	overflow: hidden;
+}
+
+
+/*******************
+	sign in page     
+*******************/
+
+.sign-in {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.sign-in > input {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*******************
+	Create a game page     
+*******************/
+
+.game-create {
+	text-align: center;
+}
+
+.game-create > select {
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+/*******************
+	Game Details page     
+*******************/
+.game-details {
+	text-align: center;
+	border: 5px solid black;
+	
+}
+
+.game-details > p {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.game-components {
+	text-align: center;
+	margin-top: 50px;
+}
