@@ -189,6 +189,7 @@ main {
 
 .game-create-head {
 	font-size: 30px;
+	color: orange;
 }
 
 .game-create {
@@ -290,3 +291,53 @@ main {
 /*******************
 	Wizard page 4    
 *******************/
+
+/*******************
+	Plot Page    
+*******************/
+
+.plot-head {
+	font-size: 30px;
+	color: orange;
+}
+
+.comment {
+	border: 3px solid orange;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.profile-picture {
+	background-color: red;
+	min-height: 50px;
+	width: 100px;
+	float: left;
+}
+
+
+/*******************
+	Item Page    
+*******************/
+
+.item-head {
+	font-size: 30px;
+	color: orange;
+}
+
+/*******************
+	Combat Page    
+*******************/
+
+.combat-head {
+	font-size: 30px;
+	color: orange;
+}
+
+/*******************
+	NPC Page    
+*******************/
+
+.npce-head {
+	font-size: 30px;
+	color: orange;
+}
