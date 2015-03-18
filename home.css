@@ -8,8 +8,10 @@ a {
 ***********************/
 
 .hero {
-	min-height: 400px;
+	min-height: 100px;
 	background-color: red;
+	overflow: hidden;
+	position: relative;
 }
 
 header {
@@ -40,12 +42,6 @@ nav > a {
 	text-transform: uppercase;
 }
 
-.sub-header {
-	height: 200px;
-	background-color: green;
-	text-align: center;
-	margin: 0 auto;
-}
 
 /********************************
 	Main Section				
@@ -54,30 +50,90 @@ nav > a {
 main {
 	background-color: blue;
 	min-height: 500px;
+	position: relative;
 }
 /*******************
 	index page     
 *******************/
 .game-links {
 	text-align: center;
-	margin: 0 auto;
+	background-color: gold;
+	margin-top: 50px;
+	display: inline-block;
+	margin-left: 600px;
+	
 }
 
 .game-links a {
 	font-size: 30px;
-	display: block;
+/*	display: block;*/
+	/*margin-top: 20px;*/
+}
+
+.sub-header {
+	background-color: #123;
+	overflow: hidden;
+	min-height: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.mission {
+	background-color: #555;
+	color: white;
+	font-size: 25px;
+	width: 400px;
+	margin-left: 35%;
+
+}
+
+.create{
+	background-color: #145;
+	min-height: 50px;
+	width: 250px;
+	position: absolute;
+	left: 40%;
+	top: 60%;
+}
+
+.create > a {
+	font-size: 20px;
+	margin-top: 30px;
+	display: inline-block;
+}
+
+.lightbox1 {
+	background-color: pink;
+	min-height: 150px;
+	width: 200px;
+	float: left;
+	margin-left: 50px;
+
+
+}.lightbox2 {
+	background-color: pink;
+	min-height: 150px;
+	width: 200px;
+	float: right;
+	margin-right: 50px;
 }
 
 /*******************
 	sign up page     
 *******************/
 
+.sign-up-head {
+	font-size: 40px;
+}
+
 .sign-up {
 	text-align: center;
 	margin: 0 auto;
+	font-size: 30px;
 }
 
 .sign-up > input {
+	font-size: 30px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -108,22 +164,32 @@ main {
 
 
 /*******************
-	sign in page     
+	log in page     
 *******************/
+
+.sign-in-head {
+	font-size: 40px
+}
 
 .sign-in {
 	text-align: center;
 	margin: 0 auto;
+	font-size: 30px;
 }
 
 .sign-in > input {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	font-size: 30px;
 }
 
 /*******************
 	Create a game page     
 *******************/
+
+.game-create-head {
+	font-size: 30px;
+}
 
 .game-create {
 	text-align: center;
@@ -151,4 +217,17 @@ main {
 .game-components {
 	text-align: center;
 	margin-top: 50px;
+}
+
+/*******************
+	Wizard page 1    
+*******************/
+
+.wizard1-sub-header {
+	background-color: #123;
+	overflow: hidden;
+	min-height: 200px;
+	margin: 0 auto;
+	text-align: center;
+
 }
