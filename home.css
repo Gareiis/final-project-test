@@ -51,6 +51,7 @@ main {
 	background-color: blue;
 	min-height: 500px;
 	position: relative;
+	overflow: hidden;
 }
 /*******************
 	index page     
@@ -143,23 +144,36 @@ main {
 	profile page     
 *******************/
 
+.profile-head {
+	color: orange;
+	font-size: 30px;
+}
+
 .profile {
-	background-color: purple;
-	position: relative;
+	background-color: black;
+	width: 500px;
+	min-height: 500px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.profile-pic {
+	background-color: orange;
+	float: left;
+	margin-bottom: 50px;
 }
 
 .update-section {
 	background-color: grey;
-	width: 960px;
+	width: 800px;
 	margin: 0 auto;
 }
 
 .user-details {
 	background-color: gold;
-	float: left;
+	float: right;
 	min-height: 100px;
 	width: 100px;
-	overflow: hidden;
 }
 
 
