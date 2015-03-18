@@ -203,6 +203,13 @@ main {
 /*******************
 	Game Details page     
 *******************/
+
+.game-details-head {
+	color: orange;
+	font-size: 30px;
+}
+
+
 .game-details {
 	text-align: center;
 	border: 5px solid black;
@@ -229,5 +236,57 @@ main {
 	min-height: 200px;
 	margin: 0 auto;
 	text-align: center;
-
 }
+
+.wizard-page1-head {
+	font-size: 40px;
+	color: orange;
+}
+
+.gallery {
+	background-color: #fff;
+	margin-left: 450px;
+	min-height: 600px;
+	width: 400px;
+}
+
+.gallery div {
+	border: 3px solid orange;
+}
+
+.singleplayer {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.multiplayer {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.splitscreen {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+.head-to-head {
+	margin-top: 50px;
+	display: inline-block;
+}
+
+/*******************
+	Wizard page 2    
+*******************/
+
+/*******************
+	Wizard page 3    
+*******************/
+
+.wiz3-head {
+	color: orange;
+	font-size: 30px;
+}
+
+/*******************
+	Wizard page 4    
+*******************/
